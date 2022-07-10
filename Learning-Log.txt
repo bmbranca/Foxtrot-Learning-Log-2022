@@ -1,0 +1,142 @@
+WEEK 1
+
+Creating a PR
+Open story.
+Open file.
+Go to the website and inspect. Find the bug.
+Search for it on VS Code.
+Once you find it, open the terminal
+Command: git pull (makes sure you have the latest, most accurate code)
+Command: git branch (you’ll see ‘staging’ in green)
+Command: git checkout -b <2nd line under ‘git helpers’ in notion story> hit enter
+Make changes to code
+Command: git add .
+Command: git commit (emoji log - on vs code command shift P, name the change, click check mark)
+Command: git push origin nameOfBranch (edited)
+Go to github to PR fill out form
+Command: git checkout staging (takes me off my branch and back to code base/master/main)
+
+When Making Changes on the Same Branch…
+Command: git pull
+Command: git checkout -b <name of branch>
+Make changes
+Command: git add .
+Command: git commit -m <emoji-log>
+Command: git push origin <name of branch>
+
+Pull requests are a feature specific to GitHub. They provide a simple, web-based way to submit your work to a project. It's called a pull request because you're asking the project to pull changes from your fork.
+
+Week one was all about orientation and setting up my dev environment. I finally learned the power of github after spending two years just pushing and forking. I’m beginning to understand how github is used in a dev team. I created my first PR for a simple bug.
+
+Questions
+What are the top 10 most common git commands?
+
+
+WEEK 2
+Creating component structure
+Go into pages and create the file
+Create an index.js file
+Format: import { NameOfYourFile } from "@components"
+export default NameOfYourFile;
+Go to big index.js in components
+Format: export { default as NameOfYourFile } from ‘./NameOfYourFile’
+Make the file in components
+Create outer index.js and styled.js files
+Then create a components folder
+Create index.js and styled.js files for each component
+
+Create a component
+Index.js file
+import React 
+Import styled files 
+Import @ components
+Import @ utils
+
+Styled.js file
+import styled from 'styled-components';
+import { colors, typography } from '@utils';
+
+
+Styled Components
+export const EnterEmailContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 1.5rem;
+    background: ${colors.white};
+    flex-grow: 1;
+`;
+
+export const WelcomeText = styled(typography.H1a)``;
+
+Week two was about creating components and learning how to import/export them. This is a resource: Importing and exporting that explains the pattern. Also, for a good example on import/export look at the Authentication component and follow it. I also began working styled components. Example structure above.
+
+Questions
+How do props work with Styled Components?
+
+WEEK 3
+Creating a Tango Component
+Under Tango, big index.js, export file
+Format: export { default as NameOfFile } from './NameOfFile';
+Create component
+Add index.js and styled.js
+
+Add component to test-utils → testingData.js:
+export const testTangoEmailSignup = {
+    enterEmailText: 'Please enter your email',
+    buttonText: 'Submit & Continue',
+    redirectUrl: '/home',
+};
+
+
+Props come from above.
+
+In week 3, I created a Tango Component. Essentially, Tango Components go into a library. They can be plugged in whenever needed. I learned how to learn Test.js to test out tango components. I participated in my first story pointing meeting and I learned what a spike is. A spike is essentially doing a fact finding mission/doing research on a particular product.
+
+
+WEEK 4
+
+
+ProductsButton.proptypes = {
+    buttonText: PropTypes.string,
+    // redirectUrl: PropTypes.string,
+};
+ProductsButton.defaultProps = {
+    buttonText: 'Checkout',
+    // redirectUrl: '/home',
+};
+
+Component.proptypes = {
+  stringProp: PropTypes.string,         // The prop should be a string
+  numberProp: PropTypes.number,         // The prop should be a number
+  anyProp: PropTypes.any,               // The prop can be of any data type
+  booleanProp: PropTypes.bool,          // The prop should be a function
+  functionProp: PropTypes.func          // The prop should be a function
+  arrayProp: PropTypes.array            // The prop should be an array
+}
+
+
+Analytics Tracking: Segment
+
+import { segment } from '@utils';
+function handleTcButtonClick() {
+        setShowModal(true);
+        segment.track('Terms and conditions modal open');
+    }
+
+Week 4 was heavy. Lots of ups and downs…but learned a lot. Coming off of last week, I learned about propTypes. PropTypes are a mechanism to ensure that components use the correct data type and pass the right data, and that components use the right type of props, and that receiving components receive the right type of props. In a complex application, it is always a good practice to use propTypes. I always learned about merge & on github. Merge and squash essentially hides all of the messy commits before merging the branch. The last couple weeks I’ve begun working with QA which has been a little difficult. Sometimes I have trouble explaining how find a bug or a feature…but it’s been great real world practice. I hope to have more meetings with QA so I can improve my communication skills.
+
+useRouter
+
+QA
+
+WEEK 5
+Prod outage
+useContext
+Best practices for useEffect
+Working with design
+New pr template
+
+
+
