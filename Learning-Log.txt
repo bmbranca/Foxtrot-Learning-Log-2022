@@ -40,8 +40,10 @@ WEEK 1 QUESTIONS
 -What are the top 10 most common git commands?
 
 
-WEEK 2 (JUNE 13 - 17)
+///////////////////////////////////////////////////////////////
 
+
+WEEK 2 (JUNE 13 - 17)
 During week 2, I dug into the code base and learned how to import and export (kind of!) I also started working on my first REAL WORLD project this week: the Wifi Landing Page. This page will allow in-store customers to connect to wifi. This is super exciting because it'll actually be used by real customers. 
 
 Creating component structure
@@ -92,6 +94,11 @@ Look at: Authentication component for example on how ro import/export
 Questions
 How do props work with Styled Components?
 
+
+///////////////////////////////////////////////////////////////
+
+
+
 WEEK 3 (June 20 - June 24)
 Creating a Tango Component
 -Under Tango, big index.js, export file
@@ -110,6 +117,12 @@ export const testTangoEmailSignup = {
 Remember: Props come from above.
 
 In week 3, I created a Tango Component. Essentially, Tango Components go into a library. They can be plugged in whenever needed. I learned how to learn Test.js to test out tango components. I participated in my first story pointing meeting and I learned what a spike is. A spike is essentially doing a fact finding mission/doing research on a particular product.
+
+
+
+///////////////////////////////////////////////////////////////
+
+
 
 
 WEEK 4 (June 27 - July 1)
@@ -142,15 +155,25 @@ function handleTcButtonClick() {
         segment.track('Terms and conditions modal open');
     }
 
-Week 4 was heavy. Lots of ups and downs…but learned a lot. Coming off of last week, I learned about propTypes. PropTypes are a mechanism to ensure that components use the correct data type and pass the right data, and that components use the right type of props, and that receiving components receive the right type of props. In a complex application, it is always a good practice to use propTypes. I always learned about merge & on github. Merge and squash essentially hides all of the messy commits before merging the branch. The last couple weeks I’ve begun working with QA which has been a little difficult. Sometimes I have trouble explaining how find a bug or a feature…but it’s been great real world practice. I hope to have more meetings with QA so I can improve my communication skills.
+Week 4 was heavy. Lots of ups and downs…but learned a lot. Coming off of last week, I learned about propTypes. PropTypes are a mechanism to ensure that components use the correct data type and pass the right data, and that components use the right type of props, and that receiving components receive the right type of props. In a complex application, it is always a good practice to use propTypes. I always learned about merge & on github. Merge and squash essentially hides all of the messy commits before merging the branch. The last couple weeks I’ve begun working with QA which has been a little difficult. Sometimes I have trouble explaining how to find a bug or a feature…but it’s been great real-world practice. I hope to have more meetings with QA so I can improve my communication skills.
 
 I need to learn more about:
 useRouter
 
 
+
+///////////////////////////////////////////////////////////////
+
+
+
+
 WEEK 5 (July 5 - July 8)
 
 Week 5 was a short week. I really dug in on the cafe pick up project. We tried to break down the project into tickets and did story pointing. I realized that being able to break big, complex projects into simpler tasks is half the battle. When you do this, things seem a lot more manageable.
+
+I learned about Sentry which is Foxtrot's error tracking software. Sentry is very granular in its error tracking, so it can detect errors that don't show up in the console. Sentry basically pinpoints the error and directs you to where the error is in the code.
+
+I also took part in a 'Production Outage' meeting. I learned what a production outage is and how to deal with one. A production outage is some major error that occurs on the live site. Instead of trying to find the error and fix it, the first thing you should do is role back the code to the last working version. Then, you should dig in to sentry and try to pinpoint the error.
 
 useEffect Anti-Patterns
 -useEffect - avoid using this in general
@@ -165,3 +188,8 @@ I'm beginning to see a pattern: getting stuck is inevitable but finding a soluti
 I need to learn more about:
 useContext
 
+
+///////////////////////////////////////////////////////////////
+
+
+Week 6 (July 11 - July 15)
