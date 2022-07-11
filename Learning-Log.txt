@@ -101,11 +101,16 @@ How do props work with Styled Components?
 
 WEEK 3 (June 20 - June 24)
 Creating a Tango Component
--Under Tango, big index.js, export file
 -Format: export { default as NameOfFile } from './NameOfFile';
 -Create component
 -Add index.js and styled.js
 
+
+go to pages -> testing -> index.js -> TestPage and plug in component
+remember to remove:            {signInWithApple && (
+
+
+then go to test-utils -> testingData.js -> and plug component in!
 Add component to test-utils → testingData.js:
 export const testTangoEmailSignup = {
     enterEmailText: 'Please enter your email',
@@ -157,8 +162,6 @@ function handleTcButtonClick() {
 
 Week 4 was heavy. Lots of ups and downs…but learned a lot. Coming off of last week, I learned about propTypes. PropTypes are a mechanism to ensure that components use the correct data type and pass the right data, and that components use the right type of props, and that receiving components receive the right type of props. In a complex application, it is always a good practice to use propTypes. I always learned about merge & on github. Merge and squash essentially hides all of the messy commits before merging the branch. The last couple weeks I’ve begun working with QA which has been a little difficult. Sometimes I have trouble explaining how to find a bug or a feature…but it’s been great real-world practice. I hope to have more meetings with QA so I can improve my communication skills.
 
-I need to learn more about:
-useRouter
 
 
 
@@ -185,8 +188,7 @@ useEffect Anti-Patterns
 I'm beginning to see a pattern: getting stuck is inevitable but finding a solution is also inevitable if you keep at it. In week 3, I got stuck and gave myself a headache trying to find a solution. Unfortunately, I did the same thing in week 5. Next time, I should realize that theres not reason to give myself a headache because the solution will eventually will come if I keep at it. This week I also started using a new PR template. The template takes more time to complete but is better for my own development because it forces me to answer "why" -- this makes me reflect on the code and think about the purpose it serves.
 
 
-I need to learn more about:
-useContext
+
 
 
 ///////////////////////////////////////////////////////////////
@@ -199,3 +201,41 @@ Week 6 (July 11 - July 15)
 //TODO: you sent 3 examples for the API call. I should be only using the one which creates a new cart, correct?
 //TODO: Best practice question: Should the button and the "invisible create cart" be together in the same component or seperated?
 //TODO: What makes sense for us to work on next?
+
+
+Passing props in styled-components
+
+
+Props declared in styled component...
+const TangoButtonStyles = styled.button`
+    display: flex;
+    align-items: center;
+    flex-direction: ${(props) => (props.iconPosition === 'right' ? '' : 'row-reverse')};
+    justify-content: space-between;
+    }
+
+Props used in return statement...
+const TangoButtonContent = React.forwardRef((props, ref) => {
+    TangoButtonContent.displayName = 'TangoButtonContent';
+    return (
+        <>
+            <Text isLoading={props.isLoading} iconPosition={props.iconPosition} ref={ref}>
+                {props.text}
+            </Text>
+            {props.iconName && <Icon name={props.iconName} size={props.iconSize || '1em'} color="currentColor" />}
+            {props.isLoading && <TangoLoader />}
+        </>
+    );
+});
+
+
+
+
+I Want to know: 
+useContext
+useRouter
+Routing patterns 
+interfacing with API endpoints
+fetching data
+React Hooks
+Styled Components
