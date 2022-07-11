@@ -41,8 +41,6 @@ WEEK 1 QUESTIONS
 
 
 ///////////////////////////////////////////////////////////////
-
-
 WEEK 2 (JUNE 13 - 17)
 During week 2, I dug into the code base and learned how to import and export (kind of!) I also started working on my first REAL WORLD project this week: the Wifi Landing Page. This page will allow in-store customers to connect to wifi. This is super exciting because it'll actually be used by real customers. 
 
@@ -96,9 +94,6 @@ How do props work with Styled Components?
 
 
 ///////////////////////////////////////////////////////////////
-
-
-
 WEEK 3 (June 20 - June 24)
 Creating a Tango Component
 -Format: export { default as NameOfFile } from './NameOfFile';
@@ -126,10 +121,6 @@ In week 3, I created a Tango Component. Essentially, Tango Components go into a 
 
 
 ///////////////////////////////////////////////////////////////
-
-
-
-
 WEEK 4 (June 27 - July 1)
 In week 4, I began working on the final big project which is the cafe-pickup project. Got stuck with imports/exports again at the end of the week but figured it out on Friday.
 
@@ -166,10 +157,6 @@ Week 4 was heavy. Lots of ups and downs…but learned a lot. Coming off of last 
 
 
 ///////////////////////////////////////////////////////////////
-
-
-
-
 WEEK 5 (July 5 - July 8)
 
 Week 5 was a short week. I really dug in on the cafe pick up project. We tried to break down the project into tickets and did story pointing. I realized that being able to break big, complex projects into simpler tasks is half the battle. When you do this, things seem a lot more manageable.
@@ -192,17 +179,7 @@ I'm beginning to see a pattern: getting stuck is inevitable but finding a soluti
 
 
 ///////////////////////////////////////////////////////////////
-
-
 Week 6 (July 11 - July 15)
-
-//TODO: Questions
-//TODO: is cart created as soon as store is selected or once an item is clicked?
-//TODO: you sent 3 examples for the API call. I should be only using the one which creates a new cart, correct?
-//TODO: Best practice question: Should the button and the "invisible create cart" be together in the same component or seperated?
-//TODO: What makes sense for us to work on next?
-
-
 Passing props in styled-components
 
 
