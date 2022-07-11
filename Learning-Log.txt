@@ -193,3 +193,9 @@ useContext
 
 
 Week 6 (July 11 - July 15)
+
+//TODO: Questions
+//TODO: is cart created as soon as store is selected or once an item is clicked?
+//TODO: you sent 3 examples for the API call. I should be only using the one which creates a new cart, correct?
+//TODO: Best practice question: Should the button and the "invisible create cart" be together in the same component or seperated?
+//TODO: What makes sense for us to work on next?
