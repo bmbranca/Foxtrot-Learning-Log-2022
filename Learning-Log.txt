@@ -238,6 +238,8 @@ let itemArray = cart?.items;
 }
 
 
+Today I made a lot of progess on the checkoutProduct component but I couldn't figure out how to remove or edit a product from the cart. So tomorrow I'll meet with Ben to talk about how to interact w/ the cart via the API. This will be a huge learn experience because being able to modify a cart is basically a cornerstore of e-commerce development.
+
 
 
 I Want to know: 
