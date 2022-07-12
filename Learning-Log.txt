@@ -205,6 +205,38 @@ const TangoButtonContent = React.forwardRef((props, ref) => {
     );
 });
 
+One way to map a component:
+
+let itemArray = cart?.items;
+    console.log(itemArray);
+    const cardEl = itemArray?.map((prod) => {
+        return (
+            <Container key={prod.id}>
+                <ProductPriceContainer>
+                    <ProductPriceContainer key={prod.id}>
+                        <ProductName>{prod.title}</ProductName>
+                        <ProductPrice>{prod.price}</ProductPrice>
+                    </ProductPriceContainer>
+                </ProductPriceContainer>
+                <Modifications>Customizations: Small, Whole Milk, Sweetened</Modifications>
+                <RemoveEditContainer>
+                    <TextButton>
+                        <CardButtons>Remove</CardButtons>
+                    </TextButton>
+                    <TextButton>
+                        <CardButtons>Edit</CardButtons>
+                    </TextButton>
+                    <TextButton>
+                        <CardButtons>Add Another</CardButtons>
+                    </TextButton>
+                </RemoveEditContainer>
+            </Container>
+        );
+    });
+
+    return <>{cardEl}</>;
+}
+
 
 
 
