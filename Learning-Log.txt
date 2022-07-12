@@ -1,8 +1,13 @@
 WEEK 1 (JUNE 6 - JUNE 10)
 
-I found and fixed a bug and created my first PR.
 
-I did the following:
+
+WEEK 1 SUMMARY
+Week one was all about orientation and setting up my dev environment. I finally learned the power of github after spending two years just pushingforking, cloning. I’m beginning to understand how github is used in a dev team. I created my first PR for a simple bug. I sat in on my first sprint planning but it didn't make a lot of sense -- I think that'll change over time as I understand the language and lingo more.
+
+I learned that set-up and installing can sometimes be frustrating but even more experienced devs have the same problems. Patience and a good long google search usually solve the problem.
+
+Week 1 Technical Notes
 -Open story (a story is job, or a task to complete)
 -Open file.
 -Go to the website and inspect. Find the bug.
@@ -26,12 +31,7 @@ Make changes
 -Command: git commit -m <emoji-log>
 -Command: git push origin <name of branch>
 
-Pull requests are a way to submit your work to a project. It's called a pull request because you're asking the project to pull changes from your fork.
-
-WEEK 1 SUMMARY
-Week one was all about orientation and setting up my dev environment. I finally learned the power of github after spending two years just pushingforking, cloning. I’m beginning to understand how github is used in a dev team. I created my first PR for a simple bug. I sat in on my first sprint planning but it didn't make a lot of sense -- I think that'll change over time as I understand the language and lingo more.
-
-I learned that set-up and installing can sometimes be frustrating but even more experienced devs have the same problems. Patience and a good long google search usually solve the problem.
+Remember: Pull requests are a way to submit your work to a project. It's called a pull request because you're asking the project to pull changes from your fork.
 
 WEEK 1 RESOURCES
 https://gitexplorer.com/ 
@@ -40,10 +40,15 @@ WEEK 1 QUESTIONS
 -What are the top 10 most common git commands?
 
 
+
+
 ///////////////////////////////////////////////////////////////
 WEEK 2 (JUNE 13 - 17)
-During week 2, I dug into the code base and learned how to import and export (kind of!) I also started working on my first REAL WORLD project this week: the Wifi Landing Page. This page will allow in-store customers to connect to wifi. This is super exciting because it'll actually be used by real customers. 
 
+WEEK 2 SUMMARY
+During week 2, I dug into the code base and learned how to import and export (kind of!) I also started working on my first REAL WORLD project this week: the Wifi Landing Page. This page will allow in-store customers to connect to wifi. This is super exciting because it'll actually be used by real customers. Week two was about creating components and learning how to import/export them. Honestly, I don't have a good grasp on this yet but I think repetition will help. I also began working styled components. Styled components are pretty awesome; they're a hybrid of React components and vanilla CSS. All of my hardwork on CSS has paid off! 
+
+WEEK 2 TECHNICAL NOTES
 Creating component structure
 -Go into pages and create the file
 -Create an index.js file
@@ -81,8 +86,6 @@ export const EnterEmailContainer = styled.div`
 
 export const WelcomeText = styled(typography.H1a)``;
 
-Week two was about creating components and learning how to import/export them. Honestly, I don't have a good grasp on this yet but I think repetition will help. I also began working styled components. Styled components are pretty awesome; they're a hybrid of React components and vanilla CSS. All of my hardwork on CSS has paid off!
-
 WEEK 2 RESOURCES
 how to import/export in Foxtrot-next: https://sunnysingh.io/blog/javascript-import-from-folder
 
@@ -93,8 +96,17 @@ Questions
 How do props work with Styled Components?
 
 
+
+
+
 ///////////////////////////////////////////////////////////////
 WEEK 3 (June 20 - June 24)
+
+WEEK 3 SUMMARY 
+In week 3, I created a Tango Component. Essentially, Tango Components go into a library. They can be plugged in whenever needed. I learned how to learn Test.js to test out tango components. I participated in my first story pointing meeting and I learned what a spike is. A spike is essentially doing a fact finding mission/doing research on a particular product.
+
+
+WEEK3 TECHNICAL NOTES
 Creating a Tango Component
 -Format: export { default as NameOfFile } from './NameOfFile';
 -Create component
@@ -116,14 +128,14 @@ export const testTangoEmailSignup = {
 
 Remember: Props come from above.
 
-In week 3, I created a Tango Component. Essentially, Tango Components go into a library. They can be plugged in whenever needed. I learned how to learn Test.js to test out tango components. I participated in my first story pointing meeting and I learned what a spike is. A spike is essentially doing a fact finding mission/doing research on a particular product.
-
 
 
 ///////////////////////////////////////////////////////////////
 WEEK 4 (June 27 - July 1)
-In week 4, I began working on the final big project which is the cafe-pickup project. Got stuck with imports/exports again at the end of the week but figured it out on Friday.
+In week 4, I began working on the final big project which is the cafe-pickup project. Got stuck with imports/exports again at the end of the week but figured it out on Friday. Week 4 was heavy. Lots of ups and downs…but learned a lot. Coming off of last week, I learned about propTypes. PropTypes are a mechanism to ensure that components use the correct data type and pass the right data, and that components use the right type of props, and that receiving components receive the right type of props. In a complex application, it is always a good practice to use propTypes. I always learned about merge & on github. Merge and squash essentially hides all of the messy commits before merging the branch. The last couple weeks I’ve begun working with QA which has been a little difficult. Sometimes I have trouble explaining how to find a bug or a feature…but it’s been great real-world practice. I hope to have more meetings with QA so I can improve my communication skills.
 
+
+WEEK 4 TECHNICAL NOTES
 ProductsButton.proptypes = {
     buttonText: PropTypes.string,
     // redirectUrl: PropTypes.string,
@@ -151,9 +163,6 @@ function handleTcButtonClick() {
         segment.track('Terms and conditions modal open');
     }
 
-Week 4 was heavy. Lots of ups and downs…but learned a lot. Coming off of last week, I learned about propTypes. PropTypes are a mechanism to ensure that components use the correct data type and pass the right data, and that components use the right type of props, and that receiving components receive the right type of props. In a complex application, it is always a good practice to use propTypes. I always learned about merge & on github. Merge and squash essentially hides all of the messy commits before merging the branch. The last couple weeks I’ve begun working with QA which has been a little difficult. Sometimes I have trouble explaining how to find a bug or a feature…but it’s been great real-world practice. I hope to have more meetings with QA so I can improve my communication skills.
-
-
 
 
 ///////////////////////////////////////////////////////////////
@@ -165,6 +174,10 @@ I learned about Sentry which is Foxtrot's error tracking software. Sentry is ver
 
 I also took part in a 'Production Outage' meeting. I learned what a production outage is and how to deal with one. A production outage is some major error that occurs on the live site. Instead of trying to find the error and fix it, the first thing you should do is role back the code to the last working version. Then, you should dig in to sentry and try to pinpoint the error.
 
+I'm beginning to see a pattern: getting stuck is inevitable but finding a solution is also inevitable if you keep at it. In week 3, I got stuck and gave myself a headache trying to find a solution. Unfortunately, I did the same thing in week 5. Next time, I should realize that theres not reason to give myself a headache because the solution will eventually will come if I keep at it. This week I also started using a new PR template. The template takes more time to complete but is better for my own development because it forces me to answer "why" -- this makes me reflect on the code and think about the purpose it serves.
+
+
+WEEK 5 TECHNICAL NOTES
 useEffect Anti-Patterns
 -useEffect - avoid using this in general
 -useEffect - avoid using it to set state
@@ -172,17 +185,18 @@ useEffect Anti-Patterns
 -useEffect - avoid having dependencies in there that aren’t in the dependency block ([] at the end)
 
 
-I'm beginning to see a pattern: getting stuck is inevitable but finding a solution is also inevitable if you keep at it. In week 3, I got stuck and gave myself a headache trying to find a solution. Unfortunately, I did the same thing in week 5. Next time, I should realize that theres not reason to give myself a headache because the solution will eventually will come if I keep at it. This week I also started using a new PR template. The template takes more time to complete but is better for my own development because it forces me to answer "why" -- this makes me reflect on the code and think about the purpose it serves.
-
-
-
-
 
 ///////////////////////////////////////////////////////////////
 Week 6 (July 11 - July 15)
+
+
+WEEK 6 SUMMARY
+Today I made a lot of progess on the checkoutProduct component but I couldn't figure out how to remove or edit a product from the cart. So tomorrow I'll meet with Ben to talk about how to interact w/ the cart via the API. This will be a huge learn experience because being able to modify a cart is basically a cornerstore of e-commerce development.
+
+
 Passing props in styled-components
 
-
+WEEK 6 TECHNICAL NOTES
 Props declared in styled component...
 const TangoButtonStyles = styled.button`
     display: flex;
@@ -236,10 +250,6 @@ let itemArray = cart?.items;
 
     return <>{cardEl}</>;
 }
-
-
-Today I made a lot of progess on the checkoutProduct component but I couldn't figure out how to remove or edit a product from the cart. So tomorrow I'll meet with Ben to talk about how to interact w/ the cart via the API. This will be a huge learn experience because being able to modify a cart is basically a cornerstore of e-commerce development.
-
 
 
 I Want to know: 
