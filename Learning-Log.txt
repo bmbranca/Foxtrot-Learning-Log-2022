@@ -1,11 +1,23 @@
+Foxtrot frontend engineering internship experience
+
+This 10-week internship started on June 6th 2022 and will end on August 12. Throughout the experience, I worked on the ecommerce team. I worked on the following projects/tasks:
+1. Foxtrot's in-store wifi connection page
+2. The web-based cafe pickup app. (Customers order cafe products from their computer, then go pick it up)
+3. Resusable components for Foxtrot component library (I worked on the email component and a button)
+
+
+
+
+
+
 WEEK 1 (JUNE 6 - JUNE 10)
 
 
 
 WEEK 1 SUMMARY
-Week one was all about orientation and setting up my dev environment. I finally learned the power of github after spending two years just pushingforking, cloning. I’m beginning to understand how github is used in a dev team. I created my first PR for a simple bug. I sat in on my first sprint planning but it didn't make a lot of sense -- I think that'll change over time as I understand the language and lingo more.
+Week one was all about orientation and setting up my dev environment. I finally learned the power of github after spending two years just pushing forking and cloning. I’m beginning to understand how github is used in a dev team. I created my first PR for a simple bug. I sat in on my first sprint planning but it didn't make a lot of sense -- I think that'll change over time as I understand the language and lingo more.
 
-I learned that set-up and installing can sometimes be frustrating but even more experienced devs have the same problems. Patience and a good long google search usually solve the problem.
+I learned that set-up and installing can sometimes be frustrating but even more experienced devs have the same problems. Patience and a good google search usually solve the problem.
 
 Week 1 Technical Notes
 -Open story (a story is job, or a task to complete)
@@ -35,10 +47,6 @@ Remember: Pull requests are a way to submit your work to a project. It's called 
 
 WEEK 1 RESOURCES
 https://gitexplorer.com/ 
-
-WEEK 1 QUESTIONS
--What are the top 10 most common git commands?
-
 
 
 
@@ -259,4 +267,13 @@ Routing patterns
 interfacing with API endpoints
 fetching data
 React Hooks
-Styled Components
+
+
+
+
+VS Code
+move code up/down: option arrow
+cut line: command X
+Delete Line: Shift+Cmd+K
+Copy Line Down/Up: Shift+Opt+Down / Shift+Opt+Up
+
