@@ -228,7 +228,6 @@ const TangoButtonContent = React.forwardRef((props, ref) => {
 });
 
 One way to map a component:
-
 let itemArray = cart?.items;
     console.log(itemArray);
     const cardEl = itemArray?.map((prod) => {
@@ -258,6 +257,12 @@ let itemArray = cart?.items;
 
     return <>{cardEl}</>;
 }
+
+-New git flow
+
+///////////////////////////////////////////////////////////////
+Week 7 (July 18 - July 22)
+
 
 
 I Want to know: 
