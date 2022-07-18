@@ -199,7 +199,9 @@ Week 6 (July 11 - July 15)
 
 
 WEEK 6 SUMMARY
-Today I made a lot of progess on the checkoutProduct component but I couldn't figure out how to remove or edit a product from the cart. So tomorrow I'll meet with Ben to talk about how to interact w/ the cart via the API. This will be a huge learn experience because being able to modify a cart is basically a cornerstore of e-commerce development.
+There was some heavy learning in week 6.  Before starting this experience, I understood the concept of context and even used it once in a project. However, I'd never really seen it on a large scale, so this week I saw it for the first time. Through repetition, I'll become more comfortable with it. I also learned about a new git flow one might use when starting a bigger project. It involves creating a new "staging" branch off of the official one. Then, at the end, you pull everything to that branch.
+
+I had a little blunder with my new Tango button. Next time, when creating a component which is similar to an existing component, I should make sure the props are different than the original. This way it's easy to differentiate it from the original. Also, it will be easier for QA to test for it.
 
 
 Passing props in styled-components
@@ -258,20 +260,22 @@ let itemArray = cart?.items;
     return <>{cardEl}</>;
 }
 
--New git flow
+
 
 ///////////////////////////////////////////////////////////////
 Week 7 (July 18 - July 22)
 
 
 
-I Want to know: 
+Weekly Focus: 
 useContext
+useQuery
 useRouter
 Routing patterns 
 interfacing with API endpoints
 fetching data
-React Hooks
+Postman
+
 
 
 
