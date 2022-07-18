@@ -265,6 +265,9 @@ let itemArray = cart?.items;
 ///////////////////////////////////////////////////////////////
 Week 7 (July 18 - July 22)
 
+useContext:
+Context APIs enable us to define the context Object which stores some data and will make it available throughout the hierarchy without passing the data as props. To Simplify, context provides a container containing some data and making it available to the entire hierarchy of components below.
+
 
 
 Weekly Focus: 
