@@ -265,6 +265,14 @@ let itemArray = cart?.items;
 ///////////////////////////////////////////////////////////////
 Week 7 (July 18 - July 22)
 
+This was a very difficult week but I made tons of progress. After a few steps backwards, I finally wrapped my head around how context works in the Foxtrot codebase. Once I was able to create new context (w/ the help of a senior develop!), I was able to harness its' power. By the end of the week, I was able to create a "remove item from cart" feature. Essentially, I wired up a button onClick with the "removeItemFromCart" api call. This was no small feat. After digging around for 8 hours (literally 8 hours, I spent all day Saturday and Sunday on 7/23,7/24 trying to do it...), I finally was able to find an example in the code base. By following that example code, I was able to get the feature working.
+
+So, I learned that part of being a developer on a team is being able to read and dig through tons of existing code. Once I'm able to find an example of what I'm looking for (which also, isn't always easy, btw), I then study it and try to figure out how to make it fit into what I need. 
+
+
+
+
+
 useContext:
 Context APIs enable us to define the context Object which stores some data and will make it available throughout the hierarchy without passing the data as props. To Simplify, context provides a container containing some data and making it available to the entire hierarchy of components below.
 
