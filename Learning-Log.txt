@@ -270,6 +270,8 @@ This was a very difficult week but I made tons of progress. After a few steps ba
 So, I learned that part of being a developer on a team is being able to read and dig through tons of existing code. Once I'm able to find an example of what I'm looking for (which also, isn't always easy, btw), I then study it and try to figure out how to make it fit into what I need. 
 
 
+///////////////////////////////////////////////////////////////
+Week 8 (July 25 - July 29)
 
 
 
