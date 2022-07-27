@@ -279,8 +279,8 @@ Today I learned how to show/not show the ApplePay feature:
             window.location.protocol === 'https:' &&
                 window.ApplePaySession &&
                 ApplePaySession.supportsVersion(3) &&
-                ApplePaySession.canMakePayments()
         );
+                ApplePaySession.canMakePayments()
 
 useContext:
 Context APIs enable us to define the context Object which stores some data and will make it available throughout the hierarchy without passing the data as props. To Simplify, context provides a container containing some data and making it available to the entire hierarchy of components below.
