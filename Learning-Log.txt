@@ -306,3 +306,14 @@ cut line: command X
 Delete Line: Shift+Cmd+K
 Copy Line Down/Up: Shift+Opt+Down / Shift+Opt+Up
 
+
+
+Week 1: basic github workflow
+Week 2: kyle file structure
+Week 3: Tango components
+Week 4: proptypes and segment
+Week 5: production outage, useEffect anti-patterns, sentry
+Week 6: props in styled-components
+Week 7: context, api, removing items from cart
+Week 8: submitting cart
+week 9: 
