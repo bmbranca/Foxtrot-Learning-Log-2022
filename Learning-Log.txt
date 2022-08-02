@@ -98,7 +98,7 @@ WEEK 2 RESOURCES
 how to import/export in Foxtrot-next: https://sunnysingh.io/blog/javascript-import-from-folder
 
 WEEK 2 CODE Example
-Look at: Authentication component for example on how ro import/export
+Look at: Authentication component for example on how to import/export
 
 Questions
 How do props work with Styled Components?
