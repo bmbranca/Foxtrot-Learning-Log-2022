@@ -296,6 +296,20 @@ interfacing with API endpoints
 fetching data
 Postman
 
+///////////////////////////////////////////////////////////////
+Week 9 (August 1 - August 5)
+
+Week 9 was pretty brutal. At the time, it felt like I wasn't making any progress but, looking back I see that I did. I'm realizing that progress isn't measured by the number of successes you have but rather by the struggle and how you respond to it. This week I couldn't figure out how to submit the cart. So I spent hour after hour playing around with the API call and payloads. All that struggle with the API helped me become more familiar with how API calls work. So, while I spent most of the time struggling and failing, I ended up learning a ton about hitting API endpoints.
+
+I also gave a mock presentation this week. The real presentation will be next week, in front of the dev team. I actually really enjoyed creating and giving the presentation because it allowed me to reflect on everything I've learned the past 9 weeks. My manager gave some valuable feedback for the real presentation next week. 
+
+
+
+///////////////////////////////////////////////////////////////
+Week 10 (August 8 - August 12)
+
+
+
 
 
 
@@ -317,3 +331,12 @@ Week 6: props in styled-components
 Week 7: context, api, removing items from cart
 Week 8: submitting cart
 week 9: 
+
+Weekly Focus: 
+useContext
+useQuery
+useRouter
+Routing patterns 
+interfacing with API endpoints
+fetching data
+Postman
